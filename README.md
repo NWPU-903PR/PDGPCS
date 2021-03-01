@@ -2,6 +2,8 @@
 PDPCST is a personalized driver genes prediction method
 PDPCST uesd gene expression data, gene mutation data and pathway data to predict driver genes. 
 
+operation system ：linux
+
 Input:
 1. Gene expression data: tumor and normal expression data, the data format is same as example
                         ('example_tumor.txt' and 'example_normal.txt',the patient's id in the two files must correspond).
