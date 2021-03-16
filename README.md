@@ -1,6 +1,11 @@
 # PDGPCS
-PDGPCS is a personalized driver genes prediction method
-PDGPCS uesd gene expression data, gene mutation data and pathway data to predict driver genes. 
+PDGPCS is a personalized driver genes prediction method;
+PDGPCS uesd gene expression data, gene mutation data and pathway data to predict driver genes.
+We obtained the source C code of PCST from  M.Bailly-Bechet, C. Borgs, A. Braunstein, J. Chayes, 
+A. Dagkessamanskaia, J.-M.François, and R. Zecchina. Finding undetected protein associations in 
+cellsignaling by belief propagation PNAS published ahead of print December 27,2010,
+doi:10.1073/pnas.1004751108. 
+The matlab fronted ("MsgSteriner.mexa64") is compiled by Visual Studio Code.
 
 operation system ：linux
 
