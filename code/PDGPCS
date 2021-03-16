@@ -30,8 +30,8 @@ function [personalized_driver_symbol,personalized_driver_rank] = ...
     
 %     for i = 1 : size(tumor_data,2) 
     for i = 1 : 2
-        [~,index] = ismember(samples(:,i),mutated_samples);
-        if index ~= 0
+        [~,ind] = ismember(samples(:,i),mutated_samples);
+        if ind ~= 0
             
             % construct personalized gene interaction network
             sample_tumor = tumor_data(:,i);        
