@@ -1,6 +1,6 @@
 # PDPCST
-PDPCST is a personalized driver genes prediction method
-PDPCST uesd gene expression data, gene mutation data and pathway data to predict driver genes. 
+PDGPCS is a personalized driver genes prediction method
+PDGPCS uesd gene expression data, gene mutation data and pathway data to predict driver genes. 
 
 operation system ：linux
 
@@ -11,7 +11,7 @@ Input:
 3. Pathway data: the data format is same as example ('KEGG_pathways_network.xlsx'). 
                  
 Run:
-4. run main_PDPCST.m.
+4. run main_PDGPCS.m.
 
 Output:
 5. The output driver_symbol: the symbol of driver genes
