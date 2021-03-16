@@ -11,9 +11,9 @@ operation system ：linux
 
 Input:
 1. Gene expression data: tumor and normal expression data, the data format is same as example
-                        ('example_tumor.txt' and 'example_normal.txt',the patient's id in the two files must correspond).
-2. Gene mutation data: the data format is same as example ('example_snp.txt' or 'example_cnv.by_genes')
-3. Pathway data: the data format is same as example ('KEGG_pathways_network.xlsx'). 
+                        ('example_tumor.txt' and 'example_normal.txt' in Data.zip,the patient's id in the two files must correspond).
+2. Gene mutation data: the data format is same as example ('example_snp.txt' or 'example_cnv.by_genes' in Data.zip)
+3. Pathway data: the data format is same as example ('KEGG_pathways_network.xlsx' in Data.zip). 
                  
 Run:
 4. run main_PDGPCS.m.
