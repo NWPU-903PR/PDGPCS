@@ -1,4 +1,4 @@
-# PDPCST
+# PDGPCS
 PDGPCS is a personalized driver genes prediction method
 PDGPCS uesd gene expression data, gene mutation data and pathway data to predict driver genes. 
 
