@@ -2,7 +2,7 @@ function [ W,p ] = SSN( sample,ref )
 %function:construct the SSN
 %   Input:
 %         sample:calculated sample
-%          ref:the reference samples
+%         ref:the reference samples
 %   Output:
 %         adjacency_matrix:the network structure
 %a example
@@ -10,18 +10,16 @@ function [ W,p ] = SSN( sample,ref )
 % ref=new_N;
 
     R = corrcoef(ref');
-    final_R0 = R;  % �ο�����PCCֵ
+    final_R0 = R;  % PCCֵ_n
     final_R0(isnan(final_R0)) = 0;
 
     NEW_data = [ref sample];
     R1 = corrcoef(NEW_data');
-    final_R1 = R1; % ����һ��������PCCֵ
+    final_R1 = R1; % PCCֵ_n+1
     final_R1(isnan(final_R1)) = 0;
-
-%     W = final_R1;   % ���ص�PCC����Ϊ��Ȩ��
     
     PR = final_R1 - final_R0;
-    W = abs(PR);
+    W = abs(PR);  % delta PCC
     
     [~,n] = size(ref);
     Z = PR./((1 - final_R0.^2) / (n - 1));
