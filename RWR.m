@@ -2,11 +2,11 @@ function q_new = RWR(A,mutation)
 % Function:random walk to obtain the similarity between other nodes and mutation
 % genes
 % Input:
-%     A��the adjacency matrix of the network
-%     mutation��the num address of the mutation gene
+%     A:the adjacency matrix of the network
+%     mutation:the num address of the mutation gene
 % Column normalization of the matrix
     leg = sum(A);
-    W = bsxfun(@rdivide,A,leg); %Normalized adjacency matrix
+    W = bsxfun(@rdivide,A,leg); % Normalized adjacency matrix
     W(isnan(W)) = 0;
 
     r = 0.6;
