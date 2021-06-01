@@ -15,8 +15,8 @@ Input:
 3. Pathway data: the data format is same as example ('KEGG_pathways_network.xlsx' ). 
                  
 Run:
-4. run main_PDGPCS.m.
+   run main_PDGPCS.m.
 
 Output:
-5. cohort_driver_rank: driver genes ranking in the population.
+   cohort_driver_rank: driver genes ranking in the population.
    personalized_driver_rank: the ranking of each patient. 
