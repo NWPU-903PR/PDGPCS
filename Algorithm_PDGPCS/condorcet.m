@@ -3,7 +3,7 @@ function cohort_ranking = condorcet(u,rank)
 %         rank the candidate genes with the condorcet method
 %Input:
 %      u:    the union of all patients' driver genes
-%      rank: the result of personalized driver ranking
+%      rank: the result of personalized driver ranking of all patients
 %Output:
 %      cohort_ranking: the rank information of all genes
     
