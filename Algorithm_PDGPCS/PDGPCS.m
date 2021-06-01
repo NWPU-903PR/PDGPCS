@@ -7,7 +7,8 @@ function [cohort_driver_rank,personalized_driver_rank] = ...
 %         expression_normal & expression_tumor: expression profiles (normal and normal) 
 %         pathway: pathway data
 %  Output:
-%         personalized_driver: patient-specific driver profiles(0:non-driver; n(>=1):driver gene rank)
+%         cohort_driver_rank: driver genes ranking in the population. 
+%         personalized_driver_rank: the ranking of each patient.
  
     [tumor,~,~] = importdata(expression_tumor);
     tumor_data = tumor.data;
