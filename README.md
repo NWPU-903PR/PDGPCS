@@ -18,5 +18,5 @@ Run:
    run main_PDGPCS.m.
 
 Output:
-   cohort_driver_rank: driver genes ranking in the population.
-   personalized_driver_rank: the ranking of each patient. 
+   1. cohort_driver_rank: driver genes ranking in the population.
+   2. personalized_driver_rank: the ranking of each patient. 
